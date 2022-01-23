@@ -1,7 +1,7 @@
 // discord.js import
 const { Client, Intents} = require('discord.js');
 // node-fetch for making HTTP requests
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
 // initialize client
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
